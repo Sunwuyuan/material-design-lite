@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
           npm install -g gulp@3
           npm install
 
