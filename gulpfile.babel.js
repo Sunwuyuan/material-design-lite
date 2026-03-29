@@ -286,42 +286,10 @@ gulp.task('all', ['clean'], cb => {
     cb);
 });
 
-// ***** Testing tasks ***** //
-
-gulp.task('mocha', ['styles'], () => {
-  return gulp.src('test/index.html')
-    .pipe($.mochaPhantomjs({reporter: 'tap'}));
-});
-
-gulp.task('mocha:closure', ['closure'], () => {
-  return gulp.src('test/index.html')
-    .pipe($.replace('src="../dist/material.js"',
-        'src="../dist/material.closure.min.js"'))
-    .pipe($.rename('temp.html'))
-    .pipe(gulp.dest('test'))
-    .pipe($.mochaPhantomjs({reporter: 'tap'}))
-    .on('finish', () => del.sync('test/temp.html'))
-    .on('error', () => del.sync('test/temp.html'));
-});
-
-gulp.task('test', [
-  'lint',
-  'mocha',
-  'mocha:closure'
-]);
-
-gulp.task('test:visual', () => {
-  browserSync({
-    notify: false,
-    server: '.',
-    startPath: 'test/visual/index.html'
-  });
-
-  gulp.watch('test/visual/**', reload);
-});
 
 
-}
+
+
 
 /**
  * Generates an index.html file for each README in MDL/src directory.
