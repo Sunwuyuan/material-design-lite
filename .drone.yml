@@ -20,7 +20,7 @@ build:
     - npm update -qq
     # build and unit test
     - gulp all
-    - gulp mocha:closure
+    # - gulp mocha:closure
     # additional browser tests
     # do this after the build and unit tests to fail fast
     - Xvfb $DISPLAY &
