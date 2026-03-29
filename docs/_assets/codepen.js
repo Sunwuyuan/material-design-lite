@@ -24,8 +24,8 @@ function CodeBlockCodePen() {
 // Also insert the MDL Library.
 CodeBlockCodePen.prototype.MDLIBS = [
   '<!-- Material Design Lite -->',
-  '<script src="$$hosted_libs_prefix$$/$$version$$/material.min.js"></script>',
-  '<link rel="stylesheet" href="$$hosted_libs_prefix$$/$$version$$/material.indigo-pink.min.css">',
+  '<script src="$$hosted_libs_prefix$$/material.min.js"></script>',
+  '<link rel="stylesheet" href="$$hosted_libs_prefix$$/material.indigo-pink.min.css">',
   '<!-- Material Design icon font -->',
   '<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">'
 ];
