@@ -103,7 +103,6 @@ gulp.task('lint', () => {
     ])
     .pipe(reload({stream: true, once: true}))
     .pipe($.jshint())
-    .pipe($.jscs())
     .pipe($.jshint.reporter('jshint-stylish'))
     .pipe($.jscs.reporter())
     .pipe($.if(!browserSync.active, $.jshint.reporter('fail')))
