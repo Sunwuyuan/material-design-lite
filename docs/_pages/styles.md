@@ -70,7 +70,7 @@ include_prefix: ../
       <strong>Note</strong>: This portion is only to demonstrate header and display styles for out CSS. For more typography guidelines, please refer to the <a href="https://www.google.com/design/spec/material-design">Material Design spec</a>.
     </div>
     <div class="styles__download">
-      <a class="download-btn download-btn--font" href="http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B0J8hsRkk91LRjU4U1NSeXdjd1U/RobotoTTF.zip">
+      <a class="download-btn download-btn--font" href="https://getmdl.wuyuan.dev/assets/Roboto.zip">
         <i class="material-icons">file_download</i>
         Download Roboto Font
       </a>
