@@ -14,7 +14,7 @@ sites:
     url: https://www.google.com/contributor/welcome/
   - name: work_partners
     title: Google for Work
-    description: The Google for Work Partner Program enables you to sell, service, and innovate by leveraging our products and platforms across the Google for Work suite. 
+    description: The Google for Work Partner Program enables you to sell, service, and innovate by leveraging our products and platforms across the Google for Work suite.
     url: https://www.google.com/work/partners/
   - name: rework
     title: reWork with Google
@@ -30,6 +30,6 @@ sites:
     url: https://www.google.com/get/sunroof/about/
 ---
 <div class="sites__content">
-<p>Material Design Lite is used on a wide range of sites. Below are just a small selection of the <strong>Google.com</strong> sites that have launched using us. We hope to expand the showcase to cover third-party and community sites built using MDL in the near future. To request your site be added, please file a <a href="https://github.com/Google/material-design-lite/issues/new?title=Site%20Showcase%20Request&body=Please%20include:%0A*%20Description%0A*%20Primary%20Link%0A*%20Screenshot">new issue</a> on our GitHub issue tracker.</p>
+<p>Material Design Lite is used on a wide range of sites. Below are just a small selection of the <strong>Google.com</strong> sites that have launched using us. We hope to expand the showcase to cover third-party and community sites built using MDL in the near future. To request your site be added, please file a <a href="https://github.com/Sunwuyuan/material-design-lite/issues/new?title=Site%20Showcase%20Request&body=Please%20include:%0A*%20Description%0A*%20Primary%20Link%0A*%20Screenshot">new issue</a> on our GitHub issue tracker.</p>
 </div>
 

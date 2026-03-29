@@ -26,7 +26,7 @@ browsers, and offers an experience that is accessible from the get-go.
 
 **This document is targeted at developers that will contribute to or compile
 MDL. If you are looking to use MDL on your website or web app please head to
-[getmdl.io](http://getmdl.io).**
+[getmdl.io](https://getmdl.wuyuan.dev).**
 
 ## Browser Support
 
@@ -43,10 +43,10 @@ to our CSS-only experience.
 Clone the repo using Git:
 
 ```bash
-git clone https://github.com/google/material-design-lite.git
+git clone https://github.com/Sunwuyuan/material-design-lite.git
 ```
 
-Alternatively you can [download](https://github.com/google/material-design-lite/archive/master.zip)
+Alternatively you can [download](https://github.com/Sunwuyuan/material-design-lite/archive/master.zip)
 this repository.
 
 Windows users, if you have trouble compiling due to line endings then make sure
@@ -72,9 +72,9 @@ changes.
 ## Want to contribute?
 
 If you found a bug, have any questions or want to contribute. Follow our
-[guidelines](https://github.com/google/material-design-lite/blob/mdl-1.x/CONTRIBUTING.md),
+[guidelines](https://github.com/Sunwuyuan/material-design-lite/blob/mdl-1.x/CONTRIBUTING.md),
 and help improve the Material Design Lite. For more information visit our
-[wiki](https://github.com/google/material-design-lite/wiki).
+[wiki](https://github.com/Sunwuyuan/material-design-lite/wiki).
 
 Please use the default branch, `mdl-1.x`.
 
@@ -85,5 +85,5 @@ However, we would absolutely love to have people testing MCW and provide feedbac
 ## License
 
 © Google, 2015. Licensed under an
-[Apache-2](https://github.com/google/material-design-lite/blob/master/LICENSE)
+[Apache-2](https://github.com/Sunwuyuan/material-design-lite/blob/master/LICENSE)
 license.

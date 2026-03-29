@@ -126,7 +126,7 @@ Please provide any other information below, and attach a screenshot if possible.
 ### Submitting a Pull Request
 Before you submit your pull request consider the following guidelines:
 
-* Search [GitHub](https://github.com/google/material-design-lite/pulls) for an open or closed Pull Request
+* Search [GitHub](https://github.com/Sunwuyuan/material-design-lite/pulls) for an open or closed Pull Request
   that relates to your submission. You don't want to duplicate effort.
 * Please sign our [Contributor License Agreement (CLA)](#cla) before sending pull
   requests. We cannot accept code without this.
@@ -222,8 +222,8 @@ changes to be accepted, the CLA must be signed. It's a quick process, we promise
 
 *This guide was inspired by the [AngularJS contribution guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md).*
 
-[github]: https://github.com/google/material-design-lite
-[issue tracker]: https://github.com/google/material-design-lite/issues
+[github]: https://github.com/Sunwuyuan/material-design-lite
+[issue tracker]: https://github.com/Sunwuyuan/material-design-lite/issues
 [individual-cla]: http://code.google.com/legal/individual-cla-v1.0.html
 [corporate-cla]: http://code.google.com/legal/corporate-cla-v1.0.html
 [js-style-guide]: http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
@@ -231,4 +231,4 @@ changes to be accepted, the CLA must be signed. It's a quick process, we promise
 [stackoverflow]: http://stackoverflow.com/questions/tagged/material-design-lite
 [global-gitignore]: https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
 [autoformatting]: https://medium.com/@addyosmani/auto-formatting-javascript-code-style-fe0f98a923b8
-[jscs-config]: https://github.com/google/material-design-lite/blob/master/.jscsrc
+[jscs-config]: https://github.com/Sunwuyuan/material-design-lite/blob/master/.jscsrc

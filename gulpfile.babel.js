@@ -39,17 +39,17 @@ import pkg from './package.json';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
-const hostedLibsUrlPrefix = 'https://code.getmdl.io';
+const hostedLibsUrlPrefix = 'https://getmdl.wuyuan.dev';
 const templateArchivePrefix = 'mdl-template-';
-const bucketProd = 'gs://www.getmdl.io';
+const bucketProd = 'gs://getmdl.wuyuan.dev';
 const bucketStaging = 'gs://mdl-staging';
-const bucketCode = 'gs://code.getmdl.io';
+const bucketCode = 'gs://getmdl.wuyuan.dev';
 const banner = ['/**',
   ' * <%= pkg.name %> - <%= pkg.description %>',
   ' * @version v<%= pkg.version %>',
   ' * @license <%= pkg.license %>',
   ' * @copyright 2015 Google, Inc.',
-  ' * @link https://github.com/google/material-design-lite',
+  ' * @link https://github.com/Sunwuyuan/material-design-lite',
   ' */',
   ''].join('\n');
 

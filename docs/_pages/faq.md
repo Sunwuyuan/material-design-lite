@@ -49,7 +49,7 @@ MDL was written using [BEM](https://en.bem.info/method/). BEM stands for Block, 
 
 These are great resources that simplify the data needed to understand BEM. If you want to read the methodology from the inventors, [Yandex provides the resource](https://en.bem.info/). This reference goes way beyond just the CSS and into the full JavaScript setup they use as well.
 
-Our [wiki](https://github.com/google/material-design-lite/wiki/Understanding-BEM) includes a section on the namespacing used for MDL specifically.
+Our [wiki](https://github.com/Sunwuyuan/material-design-lite/wiki/Understanding-BEM) includes a section on the namespacing used for MDL specifically.
 
 <h2 id="progressive-enhancement">Does MDL support progressive enhancement?</h2>
 
@@ -67,9 +67,9 @@ Note: the MDL site itself attempts to use progressive enhancement where possible
 
 <h2 id="browser-support">Which browsers does MDL support?</h2>
 
-The complete MDL experience should work in the last two versions of all evergreen browsers, whilst we gracefully degrade to CSS-only in browsers like IE9 that don’t pass our [Cutting-the-mustard](https://github.com/google/material-design-lite/blob/9e6c6ec9237715bfa04b307f786e9073f943e6be/src/mdlComponentHandler.js#L333) test.
+The complete MDL experience should work in the last two versions of all evergreen browsers, whilst we gracefully degrade to CSS-only in browsers like IE9 that don’t pass our [Cutting-the-mustard](https://github.com/Sunwuyuan/material-design-lite/blob/9e6c6ec9237715bfa04b307f786e9073f943e6be/src/mdlComponentHandler.js#L333) test.
 
-Our [browser compatibility matrix](https://github.com/google/material-design-lite/#browser-support) has the most up to date information on the browsers we officially support. For components, at minimum we require support for [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector), [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) and [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), which can be [polyfilled](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) as needed. Our Templates will work in IE10+, primarily due to our use of Flexbox.
+Our [browser compatibility matrix](https://github.com/Sunwuyuan/material-design-lite/#browser-support) has the most up to date information on the browsers we officially support. For components, at minimum we require support for [querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector), [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) and [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), which can be [polyfilled](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) as needed. Our Templates will work in IE10+, primarily due to our use of Flexbox.
 
 The polyfills that we’re currently using for the MDL site to improve support in oldIE are the following:
 
@@ -157,9 +157,9 @@ and is being used by many other teams on upcoming projects, including Google Sho
 
 <h2 id="mdl-showcase">Is there a showcase available of sites using MDL?</h2>
 
-See the <a href="/showcase/">Showcase</a> for an early list of Google sites using MDL in production. 
+See the <a href="/showcase/">Showcase</a> for an early list of Google sites using MDL in production.
 
-To request your site be added, please file a [new issue](https://github.com/Google/material-design-lite/issues/new?title=Site%20Showcase%20Request&body=Please%20include:%0A*%20Description%0A*%20Primary%20Link%0A*%20Screenshot) on our GitHub issue tracker. The issue should include a link, a description of the site and a suggested screenshot.
+To request your site be added, please file a [new issue](https://github.com/Sunwuyuan/material-design-lite/issues/new?title=Site%20Showcase%20Request&body=Please%20include:%0A*%20Description%0A*%20Primary%20Link%0A*%20Screenshot) on our GitHub issue tracker. The issue should include a link, a description of the site and a suggested screenshot.
 
 We hope to add a properly polished showcase to the site in the near future.
 
@@ -167,13 +167,13 @@ We hope to add a properly polished showcase to the site in the near future.
 
 For V1 of MDL we are focused on the use-case of folks who are likely to need a few different components on their page and will want to include most of the MDL library. This means that support and docs around just plucking single components on their own is minimal.
 
-That said, if you need to generate a build using just a single (or smaller number of) components, you will need to use Gulp with our Sass build. You can [comment out](https://github.com/google/material-design-lite/blob/master/src/material-design-lite.scss) those components you don’t need in material-design-lite.scss, [comment out](https://github.com/google/material-design-lite/blob/master/gulpfile.js#L191) the scripts you don’t need in the Gulpfile and then run `gulp` to create your build.
+That said, if you need to generate a build using just a single (or smaller number of) components, you will need to use Gulp with our Sass build. You can [comment out](https://github.com/Sunwuyuan/material-design-lite/blob/master/src/material-design-lite.scss) those components you don’t need in material-design-lite.scss, [comment out](https://github.com/Sunwuyuan/material-design-lite/blob/master/gulpfile.js#L191) the scripts you don’t need in the Gulpfile and then run `gulp` to create your build.
 
 We have talked about offering up components in a more modular fashion but will be exploring this in the post V1 timeline.
 
 <h2 id="report-an-issue">How do I report an issue with MDL?</h2>
 
-Please let us know about any problems by opening an issue on our [GitHub repo](https://github.com/google/material-design-lite/issues).
+Please let us know about any problems by opening an issue on our [GitHub repo](https://github.com/Sunwuyuan/material-design-lite/issues).
 
 <h2 id="getting-help">Where can I get help with questions about using MDL?</h2>
 
@@ -185,7 +185,7 @@ We did a preview talk at Google I/O 2015 on MDL and the slides for that talk can
 
 <h2 id="new-components">Can I request or contribute components to MDL?</h2>
 
-Sure! There may be components or templates you would like to see implemented in MDL that we don't yet provide. Please feel free to propose them on the <a href="https://github.com/Google/material-design-lite/issues/new?title=%5BComponent%20Request%5D%20%7BComponent%7D&body=Please%20include:%0A*%20Description%0A*%20Material%20Design%20Spec%20link%0A*%20Use%20Case%28s%29">Issue Tracker</a>. While we can't guarantee we'll be able to implement them all, we will consider requests and review them at regular intervals.
+Sure! There may be components or templates you would like to see implemented in MDL that we don't yet provide. Please feel free to propose them on the <a href="https://github.com/Sunwuyuan/material-design-lite/issues/new?title=%5BComponent%20Request%5D%20%7BComponent%7D&body=Please%20include:%0A*%20Description%0A*%20Material%20Design%20Spec%20link%0A*%20Use%20Case%28s%29">Issue Tracker</a>. While we can't guarantee we'll be able to implement them all, we will consider requests and review them at regular intervals.
 
 <h2 id="alternate-preprocessor">Will MDL support non-Sass preprocessors?</h2>
 
