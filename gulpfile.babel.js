@@ -320,32 +320,7 @@ gulp.task('test:visual', () => {
   gulp.watch('test/visual/**', reload);
 });
 
-// ***** Landing page tasks ***** //
 
-/**
- * Site metadata for use with templates.
- * @type {Object}
- */
-const site = {};
-
-/**
- * Generates an HTML file based on a template and file metadata.
- */
-function applyTemplate() {
-  return through.obj((file, enc, cb) => {
-    const data = {
-      site,
-      page: file.page,
-      content: file.contents.toString()
-    };
-
-    const templateFile = path.join(
-        __dirname, 'docs', '_templates', `${file.page.layout}.html`);
-    const tpl = swig.compileFile(templateFile, {cache: false});
-
-    file.contents = new Buffer(tpl(data));
-    cb(null, file);
-  });
 }
 
 /**
