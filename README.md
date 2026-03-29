@@ -26,7 +26,7 @@ browsers, and offers an experience that is accessible from the get-go.
 
 **This document is targeted at developers that will contribute to or compile
 MDL. If you are looking to use MDL on your website or web app please head to
-[getmdl.io](https://getmdl.wuyuan.dev).**
+[getmdl.wuyuan.dev](https://getmdl.wuyuan.dev).**
 
 ## Browser Support
 
